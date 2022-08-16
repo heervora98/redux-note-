@@ -1,0 +1,161 @@
+/* ....nav-bar.... */
+.navbar-serch{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.logo{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-weight: 700;
+}
+
+.icon{
+  color: brown;
+  text-decoration: none;
+   cursor: pointer;
+   font-size: 22px;
+   display: flex;
+   justify-content: flex-end;
+   margin-bottom: 20px;
+}
+
+/* .icon{
+  color: brown !important;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 22px;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: -33px;
+  margin-right: 13px;
+  position: absolute;
+  bottom: 53px;
+  right: 0;
+  margin-top: -69px;
+} */
+
+
+.icon:hover{
+  color: rgb(142, 36, 36);
+}
+.card{
+  box-shadow: 16px 17px 8px -17px rgb(0 0 0 / 75%) !important;
+  /* border: none !important; */
+}
+
+/* ...card... */
+
+ 
+  
+
+  
+  .form-title{
+    font-size: 20px !important;
+    font-weight: 500 !important;
+    border: 1px solid transparent !important;
+  }
+
+  .form-border:focus{
+    border-color: none !important;
+    box-shadow: none !important;
+  }
+
+  .search-error{
+    font-size: 25px;
+    color: rgb(142, 36, 36);
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+  }
+
+  .ok-btn{
+    margin-top: 10px;
+    padding: -3px 38px !important;
+  }
+  .form-margin{
+    margin-bottom: 10px;
+  }
+
+  .edit-btn{
+    border: none;
+    background: none;
+    color: green;
+    font-size: 22px;
+    position: absolute;
+    margin-top: -158px;
+    right: 0;
+    margin-right: 46px;
+  }
+
+.card > a{
+  text-decoration: none !important;
+  color: black;
+}
+
+.card > a:hover{
+  color: black;
+}
+  /* .card{
+    width: 400px !important;
+    height: 100px !important;
+  } */
+/* 
+  .text-danger{
+    position: absolute;
+    z-index: 200;
+    margin-left: 382px;
+    font-size: 20px;
+    border: none;
+    top: 59%;
+  }
+
+  .text-danger:hover{
+    border: none !important;
+  }
+
+  tr>td> button:hover{
+    border: none !important;
+  }
+
+  tr>td> button{
+    border: none !important;
+  }
+
+  .card-body{
+    border: 1px soli black!important;
+  } */
+
+  tr{
+    display: flex;
+  }
+  .undefined{
+    position: relative;
+  }
+
+  .searchBar{
+  margin-left: 12% !important;
+}
+
+
+.form-control{
+  background-color: transparent !important;
+}
+
+.undefined{
+  /* width: 50%; */
+  position: relative;
+}
+
+.row>*{
+  max-width: 33% !important;
+
+}
+
+.undefined > td {
+  position: absolute;
+  right: 12px;
+  font-size: 20px;
+} 
